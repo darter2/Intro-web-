@@ -3,6 +3,7 @@
 <p>I want to make a test website in order to better understand how to use and build websites.
 
 Problem/need definition
+-There isnt a website that allows a person to know more about this company.
 
 <h3>Target Audience</h3>
 Consumers of basic products, Consumers of commissions, and outsourcers
@@ -24,6 +25,7 @@ Consumers of basic products, Consumers of commissions, and outsourcers
 <h3>Non-Functional Requirements</h3>
 -Needs to be easilly navigatable
 -Needs to be optimized
+-Accessible
 
 <h3>Technical Requirements</h3>
 -HTML, CSS,JavaScript only
