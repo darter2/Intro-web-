@@ -17,6 +17,11 @@ Consumers of basic products, Consumers of commissions, and outsourcers
 -As a commission based consumer, i would like to be able to send a form showing what i am wanting to commission and what details.
 
 <h3>Functional Requirements</h3>
+-Needs an openning page that can redirect the user to different tabs 
+-Needs an About us tab that shows what the company is about.
+-Needs a products tab that shows the current available premade order
+-Needs a Comissions tab that shows some of our products before showing a commission form and direction to scedule tab
+-Needs a scheduling tab that allows the user to schedule a meeting for a shop visit or appointment for comission.u
 -Needs a form that allows you to input customer commission details
 -Needs to allow user to schedule meeting
 -Needs to show dates and times when company is selling and where
