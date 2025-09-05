@@ -1,6 +1,6 @@
 #  Wood working website
 <h3>Scopes and Goals</h3> 
-<p>I want to make a test website in order to better understand how to use and build websites.
+<p>I want to make a website for a wood working company that informs the user about the company, allows purchases, and creates opportunities to make appointments.
 
 Problem/need definition
 -There isnt a website that allows a person to know more about this company.
