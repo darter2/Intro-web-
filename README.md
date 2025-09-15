@@ -28,6 +28,27 @@ Consumers of basic products, Consumers of commissions, and outsourcers
 -Needs to be able to have different options to submit for different purposes
 
 <h3>Non-Functional Requirements</h3>
+High Level Design 
+
+-Home page
+
+--An API or table that displays what events are coming up that the company wants to display.
+--A clickable row of buttons that take you to different pages that can be on every page.
+-- html that shows text next to the table 
+--a footer that shows our major information like phone number, address, etc
+
+-about us page 
+--html and css to show the images of previous projects
+--html for text that tells what we do.
+-Product page
+--show a list of clickable products that can be added or removed by seller.
+--a page that displays the information and image of the product they had clicked. 
+-- secure order detail and purchase API or link that sends you to purchase website.
+-Order page
+--arrow buttons that change the image shown and previews of the image.
+--a form submission API that allows the user to submit documents for seller review
+-portfolio
+-- basic html and css for text and photos.
 -Needs to be easilly navigatable
 -Needs to be optimized
 -Accessible
