@@ -1,0 +1,62 @@
+/* general styles */
+body {
+    background-color: rgb(255,243,209);
+    font-family: Baskerville;
+}
+
+
+
+/* Logo image styles */
+
+.logoImageContainer {
+
+    max-width:95%;
+    max-height:95%;
+    margin-right:10%;
+    margin-left:10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    object-fit:fill;
+}
+/* Page Bar styles */
+
+.pageBar {
+    background-color: rgb(107, 68, 16);
+    max-width:100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.pageBarButtons {
+    background-color: rgb(139,255,174);
+    
+}
+
+/*footer styles*/
+
+footer {
+    
+    div {
+    
+    background-color: rgb(0, 0, 0);
+    border-top: rgb(107, 68, 16) solid 10px;
+    }
+    ul {
+        list-style-type: none;
+        color: rgb(255, 255, 255);
+        font-family: Baskerville;
+        font-size: 12px;
+    }
+}
+
+.footerRight {
+    text-align: right;
+    margin-right:20%;
+}
+
+.footerLeft {
+    display: inline-block;
+    text-align: left;
+    margin-left: 20%;
+}
+
