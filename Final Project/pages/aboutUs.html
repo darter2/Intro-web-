@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script>
+        //button functionality//
+
+        
+        function redirectToCommission() {
+            window.location.href = '../pages/commission.html'; // Replace with your target URL
+        }
+        function redirectToProducts() {
+            window.location.href = '../pages/products.html'; // Replace with your target URL
+        }
+        function redirectToHome() {
+            window.location.href = '../pages/index.html'; // Replace with your target URL
+        }
+        function redirectToPortfolio() {
+            window.location.href = '../pages/portfolio.html'; // Replace with your target URL
+        }
+    </script>
+</head>
+
+
+
+
+<body>
+    <!--Unchanging header of each page-->
+    <!--Logo image-->
+    <section>
+        <img src="../images/logo.jpg" alt="logo" class="logoImageContainer" >
+    </section>
+
+
+    <div class="pageBar">
+        <!--About Us button-->
+     <button class="pageBarButtons">
+        <p>About us</p>
+     </button>
+     <!--Products button-->
+     <button onclick="redirectToProducts()" class="pageBarButtons">
+        <p>Products</p>
+     </button>
+
+     <!--Comission Button -->
+     <button onclick="redirectToCommission()" class="pageBarButtons">
+        <p>Comission</p>
+     </button>
+
+     <!--Portfolio button-->
+     <button onclick="redirectToPortfolio()" class="pageBarButtons">
+        <p>Portfolio</p>
+     </button>
+
+     <!--Home button-->
+     <button onclick="redirectToHome()" class="pageBarButtons">
+        <p>Home</p>
+     </button>
+    </div>
+
+<!--Body of about us Page-->
+    <!-- decorative images section 1-->
+    <img src="../images/manMeasure.png" alt="Man Measuring" id="AboutUs1">
+    <img src="../images/manCarving.png" alt="Man Measuring" id="AboutUs2">
+    <img src="../images/manMeasure.png" alt="Man Measuring" id="AboutUs3">
+
+    <!-- -->
+    <div id="ourStoryHead">
+        <h1>Our Story</h1>
+    </div>
+
+<!-- main Text section 1 -->
+    <div id="ourStoryText1">
+        <p>
+            We began in 2020 as a small woodworking shop in a garage. Our passion for crafting beautiful and functional pieces of furniture quickly grew, and we decided to turn our hobby into a business. Over the years, we have honed our skills and expanded our offerings to include custom furniture, home decor, and unique woodwork pieces.
+        </p>
+    </div>
+<!-- decorative images section 2-->
+    <img src="../images/shopPic.png" alt="aboutus4" id="AboutUs4">
+
+<!-- main Text section 2 -->
+    <div id="ourStoryText2">
+        <p>
+            Our team is made up of skilled artisans who are dedicated to creating high-quality, handcrafted pieces that are built to last. We take pride in our attention to detail and our commitment to using sustainable materials and practices.
+        </p>
+    </div>
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer">
+            <ul class="footerRight">
+                <li>Contact Us</li>
+                <li>Phone Number: 123-456-7890</li>
+                <li>Email:
+            </ul>
+        
+            <ul class="footerLeft">
+                <li>Follow Us</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+            </ul>
+    </div>
+   
+</footer>
+    
+</body>
+</html>

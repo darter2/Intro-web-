@@ -1,0 +1,218 @@
+/* general styles */
+body {
+    background-color: rgb(255,243,209);
+    font-family: Baskerville;
+    font-size: 12px;
+}
+
+
+/*Same header and footer across all pages*/
+    /* Logo image styles */
+
+    .logoImageContainer {
+        
+        max-width:75%;
+        margin-right:auto;
+        margin-left:auto;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        object-fit:fill;
+    }
+    /* Page Bar styles */
+
+    .pageBar {
+        margin:none;
+        background-color: rgb(107, 68, 16);
+        max-width:100%;
+        max-height: 100%;
+        padding-bottom: .5%;
+        padding-top: .5%;
+        
+    }
+
+    .pageBarButtons {
+        background-color: rgb(139,255,174);
+
+        width: 5%;
+        height: 3%;
+        margin: 1%;
+        min-width: 100px
+        
+    }
+
+    /*footer styles*/
+
+    footer {
+        
+        div {
+        
+        background-color: rgb(0, 0, 0);
+        border-top: rgb(107, 68, 16) solid 10px;
+        }
+        table {
+        color: rgb(255, 255, 255);
+        font-family: Baskerville;
+        font-size: 12px;
+        list-style-type: none;
+        }
+        
+    }
+
+    
+
+
+/* Home Page Styles */
+    /*table styles*/
+    #homePageTable {
+        table, td, tr, th {
+            border: rgb(255, 255, 255) solid 1px;
+            border-collapse: collapse;
+        }
+        width: 75%;
+        height: 100%;
+        border: rgb(107, 68, 16) solid 10px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left:auto;
+        margin-right:auto;
+        padding: none;
+        text-align: left;
+        color: rgb(255, 255, 255);
+        
+        td {
+            padding: 2.5%;
+            vertical-align: top;
+        }
+
+
+    }
+    
+    
+    
+    #homeText {
+        h1 {
+            text-align: center;
+        }
+        display:block;
+        background-color: rgb(255, 255, 255);
+        border:rgb(107, 68, 16) solid 10px;
+        max-width: 50%;
+        margin:2.5% auto;
+        padding: 2.5%;
+    }
+
+
+
+
+/* About Us Page Styles */
+    /* decorative images*/
+    #AboutUs1 {
+        display: block;
+        margin-left: 50%;
+        border:rgb(107, 68, 16) solid 10px;
+        width: 15%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    #AboutUs2 {
+        display: block;
+        margin-left: 25%;
+        margin-right: auto;
+        border:rgb(107, 68, 16) solid 10px;
+        width: 20%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    #AboutUs3 {
+        display: block;
+        margin-left: 50%;
+        border:rgb(107, 68, 16) solid 10px;
+        width: 40%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    #AboutUs4 {
+        display: block;
+        margin: auto;
+        border:rgb(107, 68, 16) solid 10px;
+        width: 75%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+
+    /* Our Story Header */
+
+    #ourStoryHead {
+        text-align: center;
+        font-size: auto;
+        width: 50%;
+        margin: 2.5% auto 2.5% auto;
+        border: rgb(107, 68, 16) solid;
+        border-width: 10px 70px 10px 70px;
+        min-width: 20px;
+        max-height: 70px;
+        
+        color: rgb(255, 255, 255);
+        font-family: Baskerville;
+        display:block;
+        margin-left:auto;
+        background-color:rgb(0, 0, 0);
+        
+    }
+    /* Our Story text section 1 */
+        #ourStoryText1 {
+            display:block;
+            background-color: rgb(255, 255, 255);
+            border:rgb(107, 68, 16) solid 10px;
+            max-width: 50%;
+            margin:auto;
+            padding: 2.5%;
+
+
+
+
+        }
+
+    /* Our Story text section 2 */
+        #ourStoryText2 {
+            display:block;
+            background-color: rgb(255, 255, 255);
+            border:rgb(107, 68, 16) solid 10px;
+            max-width: 50%;
+            padding: 2.5%;
+            margin: 2.5% auto 2.5% auto;
+
+        }
+
+/* Products Page Styles */
+    /* Product List Item */
+
+    .product1 {
+        border: rgb(107, 68, 16) solid 10px;
+        width: 20%;
+        min-width: 150px;
+        max-width: 300px;
+         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 2.5% auto;
+        max-width: 90%;
+    }
+
+    /*commision page styles*/
+
+        /* Form Styles */
+
+    #commissionForm { 
+        display:block;
+        background-color: rgb(255, 255, 255);
+        border:rgb(107, 68, 16) solid 10px;
+        max-width: 75%;
+        margin:2.5% auto;
+        padding: 2%;
+    }

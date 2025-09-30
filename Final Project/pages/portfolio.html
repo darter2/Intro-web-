@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+<script>
+    //button functionality//
+
+    function redirectToAboutUs() {
+        window.location.href = '../pages/aboutUs.html'; // Replace with your target URL
+    }
+    function redirectToCommission() {
+        window.location.href = '../pages/commission.html'; // Replace with your target URL
+    }
+    function redirectToProducts() {
+        window.location.href = '../pages/products.html'; // Replace with your target URL
+    }
+    function redirectToHome() {
+        window.location.href = '../pages/index.html'; // Replace with your target URL
+    }
+    
+</script>
+
+</head>
+
+
+
+<body>
+    <!--Unchanging header of each page-->
+    <!--Logo image-->
+    <section>
+        <img src="../images/logo.jpg" alt="logo" class="logoImageContainer" >
+    </section>
+
+
+   <div class="pageBar">
+        <!--About Us button-->
+     <button onclick="redirectToAboutUs()" class="pageBarButtons">
+        <p>About us</p>
+     </button>
+     <!--Products button-->
+     <button onclick="redirectToProducts()" class="pageBarButtons">
+        <p>Products</p>
+     </button>
+
+     <!--Comission Button -->
+     <button onclick="redirectToCommission()" class="pageBarButtons">
+        <p>Comission</p>
+     </button>
+
+     <!--Portfolio button-->
+     <button class="pageBarButtons">
+        <p>Portfolio</p>
+     </button>
+
+     <!--Home button-->
+     <button onclick="redirectToHome()" class="pageBarButtons">
+        <p>Home</p>
+     </button>
+    </div>
+
+
+<!--Body of Home Page-->
+    <table>
+        <div>
+            <p>text</p>
+            <p>text</p>
+        </div>
+    </table>
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer">
+            <ul class="footerRight">
+                <li>Contact Us</li>
+                <li>Phone Number: 123-456-7890</li>
+                <li>Email:
+            </ul>
+        
+            <ul class="footerLeft">
+                <li>Follow Us</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+            </ul>
+    </div>
+   
+</footer>
+    
+</body>
+</html>
