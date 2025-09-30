@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+<script>
+    //button functionality//
+
+function redirectToAboutUs() {
+    window.location.href = '../pages/aboutUs.html'; // Replace with your target URL
+}
+
+function redirectToProducts() {
+    window.location.href = '../pages/products.html'; // Replace with your target URL
+}
+  function redirectToHome() {
+    window.location.href = '../pages/index.html'; // Replace with your target URL
+}
+function redirectToPortfolio() {
+    window.location.href = '../pages/portfolio.html'; // Replace with your target URL
+}
+</script>
+
+
+</head>
+
+
+<body>
+    <!--Unchanging header of each page-->
+    <!--Logo image-->
+    <section>
+        <img src="../images/logo.jpg" alt="logo" class="logoImageContainer" >
+    </section>
+
+
+    <div class="pageBar">
+        <!--About Us button-->
+     <button onclick="redirectToAboutUs()" class="pageBarButtons">
+        <p>About us</p>
+     </button>
+     <!--Products button-->
+     <button onclick="redirectToProducts()" class="pageBarButtons">
+        <p>Products</p>
+     </button>
+
+     <!--Comission Button -->
+     <button class="pageBarButtons">
+        <p>Comission</p>
+     </button>
+
+     <!--Portfolio button-->
+     <button onclick="redirectToPortfolio()" class="pageBarButtons">
+        <p>Portfolio</p>
+     </button>
+
+     <!--Home button-->
+     <button onclick="redirectToHome()" class="pageBarButtons">
+        <p>Home</p>
+     </button>
+    </div>
+   
+<!--Body of Home Page-->
+    <!--commission image1-->
+    <img src="../images/cabinet.png" alt="Handmade cabinet" id="commissionImage1">
+
+    <!--Commission description paragraph-->
+    <div id="homeText">
+        <h1> Welcome!</h1>
+        <P>
+            From Wood to Ware wants to welcome you to our website! We are a small business that creates custom wood products. We specialize in creating unique and personalized items for our customers. We hope you enjoy browsing our website and finding the perfect item for you or a loved one. If you have any questions, please feel free to contact us. Thank you for visiting From Wood to Ware!
+        </P>
+    </div>
+
+
+
+    <div id="ourStoryHead">
+            <h1>Our Story</h1>
+        </div>
+    <!--Forms-->
+    <form id=commissionForm action="/submit_commission" method="post" class="commissionForm">
+        
+        <div>
+
+        </div id=commissionForm>
+            <div>
+                <label for="commissionType">Type of Commission:</label>
+                <select id="commissionType" name="commissionType" required>
+                    <option value="">Select an option</option>
+                    <option value="furniture">Furniture</option>
+                    <option value="artwork">Artwork</option>
+                    <option value="customDesign">Custom Design</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            
+            
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="name" required>
+            <div>
+                <label for="generalDescription">Please provide a general description of what you are intrested in.:</label>
+                <div>
+                
+                    <textarea id="generalDescription" name="General Description" placeholder="Ex. I want something that is made from wood with the use of foxes and birds for a dining table centerpiece" rows="6" cols="50"></textarea>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer">
+            <ul class="footerRight">
+                <li>Contact Us</li>
+                <li>Phone Number: 123-456-7890</li>
+                <li>Email:
+            </ul>
+        
+            <ul class="footerLeft">
+                <li>Follow Us</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+            </ul>
+    </div>
+   
+</footer>
+    
+</body>
+</html>
