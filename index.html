@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CW5G87PBXM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CW5G87PBXM');
+
+    //button functionality//
+
+function redirectToAboutUs() {
+    window.location.href = '../pages/aboutUs.html'; // Replace with your target URL
+}
+function redirectToCommission() {
+    window.location.href = '../pages/commission.html'; // Replace with your target URL
+}
+function redirectToProducts() {
+    window.location.href = '../pages/products.html'; // Replace with your target URL
+}
+
+function redirectToPortfolio() {
+    window.location.href = '../pages/portfolio.html'; // Replace with your target URL
+}
+
+
+
+</script>
+</head>
+
+
+<body>
+<!--Unchanging header of each page-->
+    <!--Logo image-->
+    <section>
+        <img src="../images/logo.jpg" alt="logo" class="logoImageContainer" >
+    </section>
+
+
+    <!--Page bar-->
+
+    <div class="pageBar">
+        <!--About Us button-->
+     <button onclick="redirectToAboutUs()" class="pageBarButtons">
+        <p>About us</p>
+     </button>
+     <!--Products button-->
+     <button onclick="redirectToProducts()" class="pageBarButtons">
+        <p>Products</p>
+     </button>
+
+     <!--Comission Button -->
+     <button onclick="redirectToCommission()" class="pageBarButtons">
+        <p>Comission</p>
+     </button>
+
+     <!--Portfolio button-->
+     <button onclick="redirectToPortfolio()" class="pageBarButtons">
+        <p>Portfolio</p>
+     </button>
+
+     <!--Home button-->
+     <button class="pageBarButtons">
+        <p>Home</p>
+     </button>
+    </div>
+    
+<!--Body of Home Page-->
+    <!-- info table -->
+    <table id="homePageTable">
+        
+        <tr>
+            <th>
+                Event Name
+            </th>
+            <th>
+                Location
+            </th>
+            <th>
+                Date and time
+            </th>
+            <th>
+                Entry Fee
+            </th>
+            <th> 
+                Additional information
+            </th>
+        </tr>
+        <tr>
+            <!-- event name-->
+            <td>
+                <p> Blueberry festival</p>
+                <p> Shoemaker festival</p>
+            </td>
+            <!-- location-->
+            <td>
+                <p> 6789 w jefferon street New Albany, IN</p>
+                <p> Jeffersonville, IN</p>
+            </td>
+            <!-- date and time-->
+            <td>
+                <p> July 20th, 2024 10:00am-6:00pm</p>
+                <p> August 3rd, 2024 10:00am-5:00pm</p>
+
+            </td>
+            <!-- Entry fee-->
+             <td>
+                <p> Free</p>
+                <p> Free</p>
+             </td>
+             <td>
+                <p> link</p>
+             </td>
+        </tr>
+    </table>
+
+<!-- Main Text underneath-->
+    <div id="homeText">
+        <h1> Welcome!</h1>
+        <P>
+            From Wood to Ware wants to welcome you to our website! We are a small business that creates custom wood products. We specialize in creating unique and personalized items for our customers. We hope you enjoy browsing our website and finding the perfect item for you or a loved one. If you have any questions, please feel free to contact us. Thank you for visiting From Wood to Ware!
+        </P>
+    </div>
+
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer">
+        <table>
+            <tr>
+                <td>
+                    <li>Contact Us</li>
+                    <li>Phone Number: 123-456-7890</li>
+                </td>
+                <td>
+                    <li>Follow Us</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Twitter</li> 
+                </td>
+            </tr>
+            
+            
+           
+        </table>
+    </div>
+   
+</footer>
+</html>
