@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+<script>
+    //button functionality//
+
+    function redirectToAboutUs() {
+        window.location.href = '../pages/aboutUs.html'; // Replace with your target URL
+    }
+    function redirectToCommission() {
+        window.location.href = '../pages/commission.html'; // Replace with your target URL
+    }
+    function redirectToProducts() {
+        window.location.href = '../pages/products.html'; // Replace with your target URL
+    }
+    function redirectToHome() {
+        window.location.href = '../index.html'; // Replace with your target URL
+    }
+    
+</script>
+
+</head>
+
+
+
+<body>
+    <!--Unchanging header of each page-->
+    <!--Logo image-->
+    <section>
+        <img src="../images/logo.jpg" alt="logo" class="logoImageContainer" >
+    </section>
+
+
+   <div class="pageBar">
+        <!--About Us button-->
+     <button onclick="redirectToAboutUs()" class="pageBarButtons">
+        <p>About us</p>
+     </button>
+     <!--Products button-->
+     <button onclick="redirectToProducts()" class="pageBarButtons">
+        <p>Products</p>
+     </button>
+
+     <!--Comission Button -->
+     <button onclick="redirectToCommission()" class="pageBarButtons">
+        <p>Comission</p>
+     </button>
+
+     <!--Portfolio button-->
+     <button class="pageBarButtons">
+        <p>Portfolio</p>
+     </button>
+
+     <!--Home button-->
+     <button onclick="redirectToHome()" class="pageBarButtons">
+        <p>Home</p>
+     </button>
+    </div>
+
+
+<!--Body of Home Page-->
+    <img class=generalImage src="../images/manMeasure.png" alt="Man Measuring" id="portfolioImage1">
+
+     <heading class="sectionHeading">
+        <h1>Portfolio</h1>
+    </heading>
+
+    <!--Image section 1-->
+    <section>
+
+        <div class=portfolioImagesLeft>
+            <img src="../images/cabinet.png" alt="Woodem Bowl">
+            <p>This cabinet was made to order for a person in 2021. etc...</p>
+        </div>
+
+        <div class=portfolioImagesRight>
+            <img src="../images/cabinet.png" alt="Woodem Bowl">
+            <p>This cabinet was made to order for a person in 2021. etc...</p>
+        </div>
+        
+    </section>
+
+
+
+
+
+</body>
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer">
+        <table>
+            <td>
+                <li>Contact Us:</li>
+                <li>Phone Number: 123-456-7890</li>
+                <li>Email: wood@email.com</li>
+            </td>
+            
+            <td>
+                <li>
+                    <a href ="https://x.com/?lang=en" target="_blank">Twitter</a>   
+                </li>
+                <li>
+                    <a href ="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li>
+                    <a href ="https://www.facebook.com/" target="_blank">Facebook</a>
+                </li>
+            </td>
+            
+            
+           
+        </table>
+    </div>
+   
+</footer>
+    
+</body>
+</html>
